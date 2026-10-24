@@ -1,0 +1,57 @@
+CC := arm-none-eabi-gcc
+NAME := lab
+
+vpath %.c ../common ../ti
+
+OBJECTS := main.o startup.o uartstdio.o syscalls.o
+DEPS := $(OBJECTS:.o=.d)
+
+CFLAGS := -I../ti
+CFLAGS += -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+CFLAGS += -ffunction-sections -fdata-sections
+CFLAGS += -std=c99 -Wall -Wextra -Wshadow -pedantic -g3 -gdwarf-4 -O0
+CFLAGS += -Wstack-usage=128 -fanalyzer -Wno-analyzer-infinite-loop
+CFLAGS += -MMD -MP
+CFLAGS += -DTARGET_IS_TM4C123_RB1 -DPART_TM4C123GH6PM
+
+LDFLAGS := -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+LDFLAGS += -Wl,--entry=ResetISR
+LDFLAGS += -Wl,-T,../common/config.ld -Wl,-Map,$(NAME).map
+LDFLAGS += -Wl,--gc-sections -static
+LDFLAGS += --specs=nano.specs --specs=nosys.specs
+
+LDLIBS := -L../ti/ -ldriver -lgcc -lc -lm
+
+ifeq ($(OS),Windows_NT)
+	HOST_OS := win
+	RM := del /f /q
+	EXE := .exe
+else
+	UNAME_S := $(shell uname -s)
+	ifeq ($(UNAME_S),Linux)
+		HOST_OS := linux
+	else ifeq ($(UNAME_S),Darwin)
+		HOST_OS := mac
+	endif
+	EXE := 
+endif
+
+GRADER_SRC := verify.c
+GRADER_OBJ := $(GRADER_SRC:.c=.o)
+
+.PHONY: all clean test grader
+.SILENT: $(OBJECTS) $(GRADER_OBJ)
+
+all: $(NAME).axf
+	@echo "SUCCESS: Compilation completed successfully."
+
+$(NAME).axf: $(OBJECTS) $(GRADER_OBJ)
+	@$(CC) $(LDFLAGS) $^ $(LDLIBS) -o $@
+
+grader:
+	@$(CC) $(CFLAGS) -Os -g0 -c $(GRADER_SRC) -o $(GRADER_OBJ)
+
+-include $(DEPS)
+
+clean:
+	@$(RM) $(OBJECTS) $(DEPS) $(NAME).axf $(NAME).map $(TEST_TARGET)$(EXE)
