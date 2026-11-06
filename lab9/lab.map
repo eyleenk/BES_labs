@@ -1,0 +1,1422 @@
+Archive member included to satisfy reference by file (symbol)
+
+../ti//libdriver.a(gpio.o)    i2c_helper.o (GPIOPadConfigSet)
+../ti//libdriver.a(i2c.o)     i2c_helper.o (I2CMasterInitExpClk)
+../ti//libdriver.a(interrupt.o)
+                              ../ti//libdriver.a(gpio.o) (IntRegister)
+../ti//libdriver.a(sysctl.o)  i2c_helper.o (SysCtlPeripheralReady)
+../ti//libdriver.a(uart.o)    verify.o (UARTClockSourceSet)
+../ti//libdriver.a(cpu.o)     ../ti//libdriver.a(interrupt.o) (CPUcpsid)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_impure_data)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-ctype_.o)
+                              verify.o (_ctype_)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_malloc_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (_fflush_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o) (__malloc_lock)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o) (__sread)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_lseek_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_read_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_write_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o) (_close_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o) (errno)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o) (_free_r)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o) (_sbrk)
+/usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                              /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .init_array    0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .tm_clone_table
+                0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.deregister_tm_clones
+                0x00000000       0x1c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.register_tm_clones
+                0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data.__dso_handle
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x00000000       0x28 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.frame_dummy
+                0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.completed.1
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.object.0  0x00000000       0x18 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x00000000       0x7c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x00000000       0x10 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_line_str
+                0x00000000       0xdf /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .group         0x00000000        0xc main.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .group         0x00000000        0xc convert.o
+ .group         0x00000000        0xc convert.o
+ .group         0x00000000        0xc convert.o
+ .group         0x00000000        0xc convert.o
+ .group         0x00000000        0xc convert.o
+ .group         0x00000000        0xc convert.o
+ .group         0x00000000        0xc convert.o
+ .text          0x00000000        0x0 convert.o
+ .data          0x00000000        0x0 convert.o
+ .bss           0x00000000        0x0 convert.o
+ .debug_macro   0x00000000      0xacc convert.o
+ .debug_macro   0x00000000       0x22 convert.o
+ .debug_macro   0x00000000       0x56 convert.o
+ .debug_macro   0x00000000       0x51 convert.o
+ .debug_macro   0x00000000      0x103 convert.o
+ .debug_macro   0x00000000       0x6a convert.o
+ .debug_macro   0x00000000      0x1df convert.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .group         0x00000000        0xc i2c_helper.o
+ .text          0x00000000        0x0 i2c_helper.o
+ .data          0x00000000        0x0 i2c_helper.o
+ .bss           0x00000000        0x0 i2c_helper.o
+ .debug_macro   0x00000000      0xacc i2c_helper.o
+ .debug_macro   0x00000000       0x22 i2c_helper.o
+ .debug_macro   0x00000000       0x56 i2c_helper.o
+ .debug_macro   0x00000000       0x51 i2c_helper.o
+ .debug_macro   0x00000000      0x103 i2c_helper.o
+ .debug_macro   0x00000000       0x6a i2c_helper.o
+ .debug_macro   0x00000000      0x1df i2c_helper.o
+ .debug_macro   0x00000000       0x22 i2c_helper.o
+ .debug_macro   0x00000000       0x58 i2c_helper.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .group         0x00000000        0xc ssd1306.o
+ .text          0x00000000        0x0 ssd1306.o
+ .data          0x00000000        0x0 ssd1306.o
+ .bss           0x00000000        0x0 ssd1306.o
+ .text.SSD1306DisplayPower
+                0x00000000       0x24 ssd1306.o
+ .text.SSD1306DrawPixel
+                0x00000000       0x88 ssd1306.o
+ .text.Swap     0x00000000       0x36 ssd1306.o
+ .text.SSD1306DrawVLine
+                0x00000000       0xbc ssd1306.o
+ .text.SSD1306DrawHLine
+                0x00000000       0xc8 ssd1306.o
+ .debug_macro   0x00000000      0xacc ssd1306.o
+ .debug_macro   0x00000000       0x22 ssd1306.o
+ .debug_macro   0x00000000      0x189 ssd1306.o
+ .debug_macro   0x00000000      0x103 ssd1306.o
+ .debug_macro   0x00000000       0x6a ssd1306.o
+ .debug_macro   0x00000000      0x1df ssd1306.o
+ .debug_macro   0x00000000       0x22 ssd1306.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .group         0x00000000        0xc startup.o
+ .text          0x00000000        0x0 startup.o
+ .data          0x00000000        0x0 startup.o
+ .bss           0x00000000        0x0 startup.o
+ .debug_macro   0x00000000      0xacc startup.o
+ .debug_macro   0x00000000       0x22 startup.o
+ .debug_macro   0x00000000       0x56 startup.o
+ .debug_macro   0x00000000       0x51 startup.o
+ .debug_macro   0x00000000      0x103 startup.o
+ .debug_macro   0x00000000       0x6a startup.o
+ .debug_macro   0x00000000      0x1df startup.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .group         0x00000000        0xc uartstdio.o
+ .text          0x00000000        0x0 uartstdio.o
+ .data          0x00000000        0x0 uartstdio.o
+ .bss           0x00000000        0x0 uartstdio.o
+ .rodata.g_pcHex
+                0x00000000        0x4 uartstdio.o
+ .text.UARTgetc
+                0x00000000       0x28 uartstdio.o
+ .debug_macro   0x00000000      0xacc uartstdio.o
+ .debug_macro   0x00000000       0x22 uartstdio.o
+ .debug_macro   0x00000000       0x22 uartstdio.o
+ .debug_macro   0x00000000       0x56 uartstdio.o
+ .debug_macro   0x00000000       0x51 uartstdio.o
+ .debug_macro   0x00000000      0x103 uartstdio.o
+ .debug_macro   0x00000000       0x6a uartstdio.o
+ .debug_macro   0x00000000      0x1df uartstdio.o
+ .debug_macro   0x00000000       0x58 uartstdio.o
+ .debug_macro   0x00000000      0x25e uartstdio.o
+ .debug_macro   0x00000000       0x67 uartstdio.o
+ .debug_macro   0x00000000      0xa88 uartstdio.o
+ .group         0x00000000        0xc syscalls.o
+ .text          0x00000000        0x0 syscalls.o
+ .data          0x00000000        0x0 syscalls.o
+ .bss           0x00000000        0x0 syscalls.o
+ .text._close   0x00000000       0x18 syscalls.o
+ .text._lseek   0x00000000       0x1a syscalls.o
+ .text._read    0x00000000       0x1a syscalls.o
+ .text._write   0x00000000       0x1a syscalls.o
+ .debug_info    0x00000000      0x13c syscalls.o
+ .debug_abbrev  0x00000000       0x92 syscalls.o
+ .debug_aranges
+                0x00000000       0x38 syscalls.o
+ .debug_ranges  0x00000000       0x28 syscalls.o
+ .debug_macro   0x00000000       0x11 syscalls.o
+ .debug_macro   0x00000000      0xacc syscalls.o
+ .debug_line    0x00000000       0x8d syscalls.o
+ .debug_str     0x00000000     0x2eac syscalls.o
+ .comment       0x00000000       0x46 syscalls.o
+ .debug_frame   0x00000000       0xb0 syscalls.o
+ .ARM.attributes
+                0x00000000       0x34 syscalls.o
+ .text          0x00000000        0x0 verify.o
+ .data          0x00000000        0x0 verify.o
+ .bss           0x00000000        0x0 verify.o
+ .text          0x00000000        0x0 ../ti//libdriver.a(gpio.o)
+ .data          0x00000000        0x0 ../ti//libdriver.a(gpio.o)
+ .bss           0x00000000        0x0 ../ti//libdriver.a(gpio.o)
+ .text._GPIOIntNumberGet
+                0x00000000       0x48 ../ti//libdriver.a(gpio.o)
+ .text.GPIODirModeGet
+                0x00000000       0x24 ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntTypeSet
+                0x00000000       0x5a ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntTypeGet
+                0x00000000       0x4a ../ti//libdriver.a(gpio.o)
+ .text.GPIOPadConfigGet
+                0x00000000       0xc4 ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntEnable
+                0x00000000        0xc ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntDisable
+                0x00000000        0xe ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntStatus
+                0x00000000        0xe ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntClear
+                0x00000000        0x6 ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntRegister
+                0x00000000       0x1a ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntUnregister
+                0x00000000       0x16 ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntRegisterPin
+                0x00000000       0x1e ../ti//libdriver.a(gpio.o)
+ .text.GPIOIntUnregisterPin
+                0x00000000       0x1a ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinRead
+                0x00000000        0x6 ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinWrite
+                0x00000000        0x6 ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeADC
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeCAN
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeComparator
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeComparatorOutput
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeDIVSCLK
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeEPI
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeEthernetLED
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeEthernetMII
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutput
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutputOD
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeHibernateRTCCLK
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeLCD
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeOneWire
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypePWM
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeQEI
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeSSI
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeTimer
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeTrace
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeUART
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeUSBAnalog
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeUSBDigital
+                0x00000000       0x1c ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeWakeHigh
+                0x00000000       0x1e ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinTypeWakeLow
+                0x00000000       0x1e ../ti//libdriver.a(gpio.o)
+ .text.GPIOPinWakeStatus
+                0x00000000        0x6 ../ti//libdriver.a(gpio.o)
+ .text.GPIODMATriggerEnable
+                0x00000000        0xc ../ti//libdriver.a(gpio.o)
+ .text.GPIODMATriggerDisable
+                0x00000000        0xe ../ti//libdriver.a(gpio.o)
+ .text.GPIOADCTriggerEnable
+                0x00000000        0xc ../ti//libdriver.a(gpio.o)
+ .text.GPIOADCTriggerDisable
+                0x00000000        0xe ../ti//libdriver.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapSnowflake
+                0x00000000       0xd8 ../ti//libdriver.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapBlizzard
+                0x00000000       0xc0 ../ti//libdriver.a(gpio.o)
+ .text          0x00000000        0x0 ../ti//libdriver.a(i2c.o)
+ .data          0x00000000        0x0 ../ti//libdriver.a(i2c.o)
+ .bss           0x00000000        0x0 ../ti//libdriver.a(i2c.o)
+ .text._I2CIntNumberGet
+                0x00000000       0x48 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveAddressSet
+                0x00000000       0x18 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveEnable
+                0x00000000       0x10 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveInit
+                0x00000000       0x10 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterDisable
+                0x00000000        0xa ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveDisable
+                0x00000000       0x10 ../ti//libdriver.a(i2c.o)
+ .text.I2CIntRegister
+                0x00000000       0x1a ../ti//libdriver.a(i2c.o)
+ .text.I2CIntUnregister
+                0x00000000       0x16 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntEnable
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntEnableEx
+                0x00000000        0x8 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntEnable
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntEnableEx
+                0x00000000        0xc ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntDisable
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntDisableEx
+                0x00000000        0xa ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntDisable
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntDisableEx
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntStatus
+                0x00000000       0x10 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntStatusEx
+                0x00000000        0xa ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntStatus
+                0x00000000       0x14 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntStatusEx
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntClear
+                0x00000000        0x8 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterIntClearEx
+                0x00000000        0x4 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntClear
+                0x00000000        0x8 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveIntClearEx
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterLineStateGet
+                0x00000000        0x4 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterBusBusy
+                0x00000000        0x8 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterErr
+                0x00000000       0x16 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterDataGet
+                0x00000000        0x4 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterTimeoutSet
+                0x00000000        0x4 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveACKOverride
+                0x00000000       0x16 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveACKValueSet
+                0x00000000       0x16 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveStatus
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveDataPut
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveDataGet
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CTxFIFOConfigSet
+                0x00000000       0x18 ../ti//libdriver.a(i2c.o)
+ .text.I2CTxFIFOFlush
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CRxFIFOConfigSet
+                0x00000000       0x16 ../ti//libdriver.a(i2c.o)
+ .text.I2CRxFIFOFlush
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CFIFOStatus
+                0x00000000        0x6 ../ti//libdriver.a(i2c.o)
+ .text.I2CFIFODataPut
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CFIFODataPutNonBlocking
+                0x00000000       0x14 ../ti//libdriver.a(i2c.o)
+ .text.I2CFIFODataGet
+                0x00000000        0xe ../ti//libdriver.a(i2c.o)
+ .text.I2CFIFODataGetNonBlocking
+                0x00000000       0x16 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterBurstLengthSet
+                0x00000000        0x4 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterBurstCountGet
+                0x00000000        0x4 ../ti//libdriver.a(i2c.o)
+ .text.I2CMasterGlitchFilterConfigSet
+                0x00000000       0x44 ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveFIFOEnable
+                0x00000000        0xa ../ti//libdriver.a(i2c.o)
+ .text.I2CSlaveFIFODisable
+                0x00000000        0x8 ../ti//libdriver.a(i2c.o)
+ .text.I2CLoopbackEnable
+                0x00000000        0xa ../ti//libdriver.a(i2c.o)
+ .rodata.g_ppui32I2CIntMap
+                0x00000000       0x30 ../ti//libdriver.a(i2c.o)
+ .rodata.g_ppui32I2CIntMapSnowflake
+                0x00000000       0x50 ../ti//libdriver.a(i2c.o)
+ .text          0x00000000        0x0 ../ti//libdriver.a(interrupt.o)
+ .data          0x00000000        0x0 ../ti//libdriver.a(interrupt.o)
+ .bss           0x00000000        0x0 ../ti//libdriver.a(interrupt.o)
+ .text._IntDefaultHandler
+                0x00000000        0x2 ../ti//libdriver.a(interrupt.o)
+ .text.IntMasterEnable
+                0x00000000        0xe ../ti//libdriver.a(interrupt.o)
+ .text.IntMasterDisable
+                0x00000000        0xe ../ti//libdriver.a(interrupt.o)
+ .text.IntRegister
+                0x00000000       0x34 ../ti//libdriver.a(interrupt.o)
+ .text.IntUnregister
+                0x00000000       0x14 ../ti//libdriver.a(interrupt.o)
+ .text.IntPriorityGroupingSet
+                0x00000000       0x1c ../ti//libdriver.a(interrupt.o)
+ .text.IntPriorityGroupingGet
+                0x00000000       0x24 ../ti//libdriver.a(interrupt.o)
+ .text.IntPrioritySet
+                0x00000000       0x2c ../ti//libdriver.a(interrupt.o)
+ .text.IntPriorityGet
+                0x00000000       0x1c ../ti//libdriver.a(interrupt.o)
+ .text.IntEnable
+                0x00000000       0x60 ../ti//libdriver.a(interrupt.o)
+ .text.IntDisable
+                0x00000000       0x60 ../ti//libdriver.a(interrupt.o)
+ .text.IntIsEnabled
+                0x00000000       0x64 ../ti//libdriver.a(interrupt.o)
+ .text.IntPendSet
+                0x00000000       0x50 ../ti//libdriver.a(interrupt.o)
+ .text.IntPendClear
+                0x00000000       0x40 ../ti//libdriver.a(interrupt.o)
+ .text.IntPriorityMaskSet
+                0x00000000        0x4 ../ti//libdriver.a(interrupt.o)
+ .text.IntPriorityMaskGet
+                0x00000000        0x4 ../ti//libdriver.a(interrupt.o)
+ .text.IntTrigger
+                0x00000000        0xc ../ti//libdriver.a(interrupt.o)
+ .rodata.g_pui32Priority
+                0x00000000       0x20 ../ti//libdriver.a(interrupt.o)
+ .rodata.g_pui32Dii16Regs
+                0x00000000       0x14 ../ti//libdriver.a(interrupt.o)
+ .rodata.g_pui32PendRegs
+                0x00000000       0x14 ../ti//libdriver.a(interrupt.o)
+ vtable         0x00000000      0x400 ../ti//libdriver.a(interrupt.o)
+ .rodata.g_pui32Regs
+                0x00000000       0x9c ../ti//libdriver.a(interrupt.o)
+ .rodata.g_pui32EnRegs
+                0x00000000       0x14 ../ti//libdriver.a(interrupt.o)
+ .rodata.g_pui32UnpendRegs
+                0x00000000       0x14 ../ti//libdriver.a(interrupt.o)
+ .comment       0x00000000       0x71 ../ti//libdriver.a(interrupt.o)
+ .ARM.attributes
+                0x00000000       0x3b ../ti//libdriver.a(interrupt.o)
+ .text          0x00000000        0x0 ../ti//libdriver.a(sysctl.o)
+ .data          0x00000000        0x0 ../ti//libdriver.a(sysctl.o)
+ .bss           0x00000000        0x0 ../ti//libdriver.a(sysctl.o)
+ .text._SysCtlMemTimingGet
+                0x00000000       0x24 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlSRAMSizeGet
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlFlashSizeGet
+                0x00000000       0x3c ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlFlashSectorSizeGet
+                0x00000000       0x38 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPresent
+                0x00000000       0x26 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOn
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOff
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralReset
+                0x00000000       0x3a ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDisable
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralSleepEnable
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralSleepDisable
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x00000000       0x22 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralClockGating
+                0x00000000       0x48 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlIntRegister
+                0x00000000       0x14 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlIntUnregister
+                0x00000000       0x12 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlIntEnable
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlIntDisable
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlIntClear
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlIntStatus
+                0x00000000       0x14 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlLDOSleepSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlLDOSleepGet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlLDODeepSleepSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlLDODeepSleepGet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlSleepPowerSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepPowerSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlReset
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlSleep
+                0x00000000        0x4 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleep
+                0x00000000       0x20 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlResetCauseGet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlResetCauseClear
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlDelay
+                0x00000000        0x8 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlMOSCConfigSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPIOSCCalibrate
+                0x00000000       0x48 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlResetBehaviorSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlResetBehaviorGet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlClockFreqSet
+                0x00000000      0x248 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlClockSet
+                0x00000000      0x11c ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepClockSet
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepClockConfigSet
+                0x00000000       0x60 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPWMClockSet
+                0x00000000       0x14 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlPWMClockGet
+                0x00000000       0x18 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlGPIOAHBEnable
+                0x00000000       0x18 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlGPIOAHBDisable
+                0x00000000       0x1c ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlUSBPLLEnable
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlUSBPLLDisable
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlVoltageEventConfig
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlVoltageEventStatus
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlVoltageEventClear
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlVCOGet
+                0x00000000       0x78 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlNMIStatus
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlNMIClear
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlClockOutConfig
+                0x00000000       0x10 ../ti//libdriver.a(sysctl.o)
+ .text.SysCtlAltClkConfig
+                0x00000000        0xc ../ti//libdriver.a(sysctl.o)
+ .rodata.g_pppui32XTALtoVCO
+                0x00000000      0x1b0 ../ti//libdriver.a(sysctl.o)
+ .rodata.g_pui32VCOFrequencies
+                0x00000000        0x8 ../ti//libdriver.a(sysctl.o)
+ .rodata.g_sXTALtoMEMTIM
+                0x00000000       0x30 ../ti//libdriver.a(sysctl.o)
+ .text          0x00000000        0x0 ../ti//libdriver.a(uart.o)
+ .data          0x00000000        0x0 ../ti//libdriver.a(uart.o)
+ .bss           0x00000000        0x0 ../ti//libdriver.a(uart.o)
+ .text._UARTIntNumberGet
+                0x00000000       0x44 ../ti//libdriver.a(uart.o)
+ .text.UARTParityModeSet
+                0x00000000        0xc ../ti//libdriver.a(uart.o)
+ .text.UARTParityModeGet
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTFIFOLevelSet
+                0x00000000        0x6 ../ti//libdriver.a(uart.o)
+ .text.UARTFIFOLevelGet
+                0x00000000       0x10 ../ti//libdriver.a(uart.o)
+ .text.UARTConfigGetExpClk
+                0x00000000       0x28 ../ti//libdriver.a(uart.o)
+ .text.UARTEnable
+                0x00000000       0x16 ../ti//libdriver.a(uart.o)
+ .text.UARTDisable
+                0x00000000       0x1c ../ti//libdriver.a(uart.o)
+ .text.UARTConfigSetExpClk
+                0x00000000       0x48 ../ti//libdriver.a(uart.o)
+ .text.UARTFIFOEnable
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTFIFODisable
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTEnableSIR
+                0x00000000       0x12 ../ti//libdriver.a(uart.o)
+ .text.UARTDisableSIR
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTSmartCardEnable
+                0x00000000       0x16 ../ti//libdriver.a(uart.o)
+ .text.UARTSmartCardDisable
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTModemControlSet
+                0x00000000        0xc ../ti//libdriver.a(uart.o)
+ .text.UARTModemControlClear
+                0x00000000        0xe ../ti//libdriver.a(uart.o)
+ .text.UARTModemControlGet
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTModemStatusGet
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTFlowControlSet
+                0x00000000        0xc ../ti//libdriver.a(uart.o)
+ .text.UARTFlowControlGet
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTTxIntModeSet
+                0x00000000        0xc ../ti//libdriver.a(uart.o)
+ .text.UARTTxIntModeGet
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTCharsAvail
+                0x00000000        0xc ../ti//libdriver.a(uart.o)
+ .text.UARTSpaceAvail
+                0x00000000        0xc ../ti//libdriver.a(uart.o)
+ .text.UARTCharGetNonBlocking
+                0x00000000        0xe ../ti//libdriver.a(uart.o)
+ .text.UARTCharGet
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTCharPutNonBlocking
+                0x00000000       0x10 ../ti//libdriver.a(uart.o)
+ .text.UARTCharPut
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTBreakCtl
+                0x00000000       0x16 ../ti//libdriver.a(uart.o)
+ .text.UARTBusy
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTIntRegister
+                0x00000000       0x1a ../ti//libdriver.a(uart.o)
+ .text.UARTIntUnregister
+                0x00000000       0x16 ../ti//libdriver.a(uart.o)
+ .text.UARTIntEnable
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTIntDisable
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTIntStatus
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTIntClear
+                0x00000000        0x4 ../ti//libdriver.a(uart.o)
+ .text.UARTDMAEnable
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTDMADisable
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UARTRxErrorGet
+                0x00000000        0x8 ../ti//libdriver.a(uart.o)
+ .text.UARTRxErrorClear
+                0x00000000        0x6 ../ti//libdriver.a(uart.o)
+ .text.UARTClockSourceGet
+                0x00000000        0x6 ../ti//libdriver.a(uart.o)
+ .text.UART9BitEnable
+                0x00000000        0xe ../ti//libdriver.a(uart.o)
+ .text.UART9BitDisable
+                0x00000000        0xe ../ti//libdriver.a(uart.o)
+ .text.UART9BitAddrSet
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .text.UART9BitAddrSend
+                0x00000000       0x2c ../ti//libdriver.a(uart.o)
+ .text.UARTLoopbackEnable
+                0x00000000        0xa ../ti//libdriver.a(uart.o)
+ .rodata.g_ppui32UARTIntMap
+                0x00000000       0x40 ../ti//libdriver.a(uart.o)
+ .rodata.g_ppui32UARTIntMapSnowflake
+                0x00000000       0x40 ../ti//libdriver.a(uart.o)
+ .text          0x00000000        0x0 ../ti//libdriver.a(cpu.o)
+ .data          0x00000000        0x0 ../ti//libdriver.a(cpu.o)
+ .bss           0x00000000        0x0 ../ti//libdriver.a(cpu.o)
+ .text.CPUcpsid
+                0x00000000        0x8 ../ti//libdriver.a(cpu.o)
+ .text.CPUprimask
+                0x00000000        0x6 ../ti//libdriver.a(cpu.o)
+ .text.CPUcpsie
+                0x00000000        0x8 ../ti//libdriver.a(cpu.o)
+ .text.CPUwfi   0x00000000        0x4 ../ti//libdriver.a(cpu.o)
+ .text.CPUbasepriSet
+                0x00000000        0x6 ../ti//libdriver.a(cpu.o)
+ .text.CPUbasepriGet
+                0x00000000        0x6 ../ti//libdriver.a(cpu.o)
+ .comment       0x00000000       0x71 ../ti//libdriver.a(cpu.o)
+ .ARM.attributes
+                0x00000000       0x3b ../ti//libdriver.a(cpu.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .text.exit     0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000000       0x28 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x3c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x138 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00000000      0x144 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x48 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .debug_frame   0x00000000       0x2c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000000       0xb0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000       0x4c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-ctype_.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-ctype_.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-ctype_.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x44 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x100 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00000000       0x50 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x108 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x5c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000000       0x30 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x88 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xbc /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000000       0x38 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .text._free_r  0x00000000       0x94 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x00000000       0x38 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .text._sbrk    0x00000000       0x1c /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .bss.heap_end.0
+                0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .debug_frame   0x00000000       0x20 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata.all_implied_fbits
+                0x00000000       0x24 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .tm_clone_table
+                0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x00000000       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x00000000        0x0 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x00000000        0x8 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .fini          0x00000000        0x8 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .ARM.attributes
+                0x00000000       0x22 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00040000         xr
+SRAM             0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+
+.text           0x00000000     0x198d
+                0x00000000                        _text = .
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x26c startup.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.main     0x0000026c       0x94 main.o
+                0x0000026c                main
+ .text.ConfigureDisplay
+                0x00000300       0x10 main.o
+                0x00000300                ConfigureDisplay
+ .text.OLEDprint
+                0x00000310       0x2c main.o
+                0x00000310                OLEDprint
+ .text.ConvertDec
+                0x0000033c      0x130 convert.o
+                0x0000033c                ConvertDec
+ .text.ConvertDistance
+                0x0000046c      0x140 convert.o
+                0x0000046c                ConvertDistance
+ .text.I2C3Config
+                0x000005ac       0xb4 i2c_helper.o
+                0x000005ac                I2C3Config
+ .text.SendSingleByte
+                0x00000660       0x6c i2c_helper.o
+                0x00000660                SendSingleByte
+ .text.SendMultipleBytes
+                0x000006cc       0xd0 i2c_helper.o
+                0x000006cc                SendMultipleBytes
+ .text.SendCommand
+                0x0000079c       0x1e ssd1306.o
+                0x0000079c                SendCommand
+ .text.SSD1306DisplayInit
+                0x000007ba       0x98 ssd1306.o
+                0x000007ba                SSD1306DisplayInit
+ .text.SSD1306DisplayInvert
+                0x00000852       0x24 ssd1306.o
+                0x00000852                SSD1306DisplayInvert
+ .text.SSD1306SetContrast
+                0x00000876       0x20 ssd1306.o
+                0x00000876                SSD1306SetContrast
+ .text.SSD1306SetRotation
+                0x00000896       0x32 ssd1306.o
+                0x00000896                SSD1306SetRotation
+ .text.SSD1306DisplayClear
+                0x000008c8       0x18 ssd1306.o
+                0x000008c8                SSD1306DisplayClear
+ .text.SSD1306DisplayUpdate
+                0x000008e0       0x40 ssd1306.o
+                0x000008e0                SSD1306DisplayUpdate
+ .text.SSD1306SetCursor
+                0x00000920       0x3c ssd1306.o
+                0x00000920                SSD1306SetCursor
+ .text.SSD1306DrawStr
+                0x0000095c       0x2c ssd1306.o
+                0x0000095c                SSD1306DrawStr
+ .text.SSD1306DrawChar
+                0x00000988       0x78 ssd1306.o
+                0x00000988                SSD1306DrawChar
+ .text.ResetISR
+                0x00000a00       0x6c startup.o
+                0x00000a00                ResetISR
+ .text.NmiSR    0x00000a6c        0x8 startup.o
+ .text.FaultISR
+                0x00000a74        0x8 startup.o
+ .text.IntDefaultHandler
+                0x00000a7c        0x8 startup.o
+ .text.UARTStdioConfig
+                0x00000a84       0x98 uartstdio.o
+                0x00000a84                UARTStdioConfig
+ .text.UARTwrite
+                0x00000b1c       0x68 uartstdio.o
+                0x00000b1c                UARTwrite
+ .text.UARTgets
+                0x00000b84       0xf0 uartstdio.o
+                0x00000b84                UARTgets
+ .text.UARTvprintf
+                0x00000c74      0x3e8 uartstdio.o
+                0x00000c74                UARTvprintf
+ .text.UARTprintf
+                0x0000105c       0x24 uartstdio.o
+                0x0000105c                UARTprintf
+ .text.ConfigureUART
+                0x00001080       0x5c verify.o
+                0x00001080                ConfigureUART
+ .text.atoi     0x000010dc       0x3c verify.o
+                0x000010dc                atoi
+ .text.GPIODirModeSet
+                0x00001118       0x2e ../ti//libdriver.a(gpio.o)
+                0x00001118                GPIODirModeSet
+ .text.GPIOPadConfigSet
+                0x00001146      0x130 ../ti//libdriver.a(gpio.o)
+                0x00001146                GPIOPadConfigSet
+ .text.GPIOPinTypeGPIOInput
+                0x00001276       0x1c ../ti//libdriver.a(gpio.o)
+                0x00001276                GPIOPinTypeGPIOInput
+ .text.GPIOPinTypeI2C
+                0x00001292       0x1c ../ti//libdriver.a(gpio.o)
+                0x00001292                GPIOPinTypeI2C
+ .text.GPIOPinTypeI2CSCL
+                0x000012ae       0x1c ../ti//libdriver.a(gpio.o)
+                0x000012ae                GPIOPinTypeI2CSCL
+ *fill*         0x000012ca        0x2 
+ .text.GPIOPinConfigure
+                0x000012cc       0x4c ../ti//libdriver.a(gpio.o)
+                0x000012cc                GPIOPinConfigure
+ .text.I2CMasterEnable
+                0x00001318        0xa ../ti//libdriver.a(i2c.o)
+                0x00001318                I2CMasterEnable
+ *fill*         0x00001322        0x2 
+ .text.I2CMasterInitExpClk
+                0x00001324       0x54 ../ti//libdriver.a(i2c.o)
+                0x00001324                I2CMasterInitExpClk
+ .text.I2CMasterSlaveAddrSet
+                0x00001378        0x8 ../ti//libdriver.a(i2c.o)
+                0x00001378                I2CMasterSlaveAddrSet
+ .text.I2CMasterBusy
+                0x00001380        0x8 ../ti//libdriver.a(i2c.o)
+                0x00001380                I2CMasterBusy
+ .text.I2CMasterControl
+                0x00001388        0x4 ../ti//libdriver.a(i2c.o)
+                0x00001388                I2CMasterControl
+ .text.I2CMasterDataPut
+                0x0000138c        0x4 ../ti//libdriver.a(i2c.o)
+                0x0000138c                I2CMasterDataPut
+ .text.SysCtlPeripheralReady
+                0x00001390       0x26 ../ti//libdriver.a(sysctl.o)
+                0x00001390                SysCtlPeripheralReady
+ .text.SysCtlPeripheralEnable
+                0x000013b6       0x22 ../ti//libdriver.a(sysctl.o)
+                0x000013b6                SysCtlPeripheralEnable
+ .text.SysCtlClockGet
+                0x000013d8      0x12c ../ti//libdriver.a(sysctl.o)
+                0x000013d8                SysCtlClockGet
+ .text.UARTClockSourceSet
+                0x00001504        0x6 ../ti//libdriver.a(uart.o)
+                0x00001504                UARTClockSourceSet
+ .text.memset   0x0000150a       0x10 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x0000150a                memset
+ *(.rodata*)
+ *fill*         0x0000151a        0x2 
+ .rodata        0x0000151c       0x54 main.o
+ .rodata.gASCIITable
+                0x00001570      0x1e0 ssd1306.o
+                0x00001570                gASCIITable
+ .rodata        0x00001750       0x26 uartstdio.o
+ *fill*         0x00001776        0x2 
+ .rodata.g_ui32UARTBase
+                0x00001778        0xc uartstdio.o
+ .rodata.g_ui32UARTPeriph
+                0x00001784        0xc uartstdio.o
+ .rodata.g_pui32GPIOBaseAddrs
+                0x00001790       0x90 ../ti//libdriver.a(gpio.o)
+ .rodata.g_pui32Xtals
+                0x00001820       0x6c ../ti//libdriver.a(sysctl.o)
+ .rodata._ctype_
+                0x0000188c      0x101 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-ctype_.o)
+                0x0000188c                _ctype_
+                0x0000198d                        _etext = .
+
+.glue_7         0x00001990        0x0
+ .glue_7        0x00001990        0x0 linker stubs
+
+.glue_7t        0x00001990        0x0
+ .glue_7t       0x00001990        0x0 linker stubs
+
+.vfp11_veneer   0x00001990        0x0
+ .vfp11_veneer  0x00001990        0x0 linker stubs
+
+.v4_bx          0x00001990        0x0
+ .v4_bx         0x00001990        0x0 linker stubs
+
+.init           0x00001990        0x4
+ .init          0x00001990        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x00001990                _init
+
+.fini           0x00001994        0x4
+ .fini          0x00001994        0x4 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x00001994                _fini
+
+.iplt           0x00001998        0x0
+ .iplt          0x00001998        0x0 main.o
+
+.rel.dyn        0x00001998        0x0
+ .rel.iplt      0x00001998        0x0 main.o
+
+.ARM.exidx
+ *(.ARM.exidx*)
+ *(.gnu.linkonce.armexidx.*)
+
+.data           0x20000000        0x0 load address 0x00001998
+                0x20000000                        _data = .
+                0x00001998                        _ldata = LOADADDR (.data)
+ *(vtable)
+ *(.data*)
+                0x20000000                        _edata = .
+
+.igot.plt       0x20000000        0x0 load address 0x00001998
+ .igot.plt      0x20000000        0x0 main.o
+
+.bss            0x20000000      0x609 load address 0x00001998
+                0x20000000                        _bss = .
+ *(.bss*)
+ .bss.gBuffer   0x20000000      0x400 ssd1306.o
+                0x20000000                gBuffer
+ .bss.gBufferCursorPos
+                0x20000400        0x4 ssd1306.o
+                0x20000400                gBufferCursorPos
+ .bss.pui32Stack
+                0x20000404      0x200 startup.o
+ .bss.g_ui32Base
+                0x20000604        0x4 uartstdio.o
+ .bss.bLastWasCR.0
+                0x20000608        0x1 uartstdio.o
+ *(COMMON)
+                0x20000609                        _ebss = .
+LOAD main.o
+LOAD convert.o
+LOAD i2c_helper.o
+LOAD ssd1306.o
+LOAD startup.o
+LOAD uartstdio.o
+LOAD syscalls.o
+LOAD verify.o
+LOAD ../ti//libdriver.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+OUTPUT(lab.axf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x00000022       0x34 main.o
+ .ARM.attributes
+                0x00000056       0x34 convert.o
+ .ARM.attributes
+                0x0000008a       0x34 i2c_helper.o
+ .ARM.attributes
+                0x000000be       0x34 ssd1306.o
+ .ARM.attributes
+                0x000000f2       0x34 startup.o
+ .ARM.attributes
+                0x00000126       0x34 uartstdio.o
+ .ARM.attributes
+                0x0000015a       0x34 verify.o
+ .ARM.attributes
+                0x0000018e       0x3b ../ti//libdriver.a(gpio.o)
+ .ARM.attributes
+                0x000001c9       0x3b ../ti//libdriver.a(i2c.o)
+ .ARM.attributes
+                0x00000204       0x3b ../ti//libdriver.a(sysctl.o)
+ .ARM.attributes
+                0x0000023f       0x3b ../ti//libdriver.a(uart.o)
+ .ARM.attributes
+                0x0000027a       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x000002ae       0x34 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-ctype_.o)
+
+.comment        0x00000000       0xfb
+ .comment       0x00000000       0xfb main.o
+                                 0x46 (size before relaxing)
+ .comment       0x000000fb       0x46 convert.o
+ .comment       0x000000fb       0x46 i2c_helper.o
+ .comment       0x000000fb       0x46 ssd1306.o
+ .comment       0x000000fb       0x46 startup.o
+ .comment       0x000000fb       0x46 uartstdio.o
+ .comment       0x000000fb       0x47 verify.o
+ .comment       0x000000fb       0x71 ../ti//libdriver.a(gpio.o)
+ .comment       0x000000fb       0x71 ../ti//libdriver.a(i2c.o)
+ .comment       0x000000fb       0x71 ../ti//libdriver.a(sysctl.o)
+ .comment       0x000000fb       0x71 ../ti//libdriver.a(uart.o)
+
+.debug_info     0x00000000     0x1020
+ .debug_info    0x00000000      0x217 main.o
+ .debug_info    0x00000217      0x16b convert.o
+ .debug_info    0x00000382      0x29b i2c_helper.o
+ .debug_info    0x0000061d      0x4d9 ssd1306.o
+ .debug_info    0x00000af6      0x181 startup.o
+ .debug_info    0x00000c77      0x3a9 uartstdio.o
+
+.debug_abbrev   0x00000000      0x6d4
+ .debug_abbrev  0x00000000      0x12e main.o
+ .debug_abbrev  0x0000012e       0x9d convert.o
+ .debug_abbrev  0x000001cb      0x114 i2c_helper.o
+ .debug_abbrev  0x000002df      0x1d8 ssd1306.o
+ .debug_abbrev  0x000004b7       0xe5 startup.o
+ .debug_abbrev  0x0000059c      0x138 uartstdio.o
+
+.debug_aranges  0x00000000      0x198
+ .debug_aranges
+                0x00000000       0x30 main.o
+ .debug_aranges
+                0x00000030       0x28 convert.o
+ .debug_aranges
+                0x00000058       0x30 i2c_helper.o
+ .debug_aranges
+                0x00000088       0x90 ssd1306.o
+ .debug_aranges
+                0x00000118       0x38 startup.o
+ .debug_aranges
+                0x00000150       0x48 uartstdio.o
+
+.debug_ranges   0x00000000      0x138
+ .debug_ranges  0x00000000       0x20 main.o
+ .debug_ranges  0x00000020       0x18 convert.o
+ .debug_ranges  0x00000038       0x20 i2c_helper.o
+ .debug_ranges  0x00000058       0x80 ssd1306.o
+ .debug_ranges  0x000000d8       0x28 startup.o
+ .debug_ranges  0x00000100       0x38 uartstdio.o
+
+.debug_macro    0x00000000     0x7cd7
+ .debug_macro   0x00000000       0xb8 main.o
+ .debug_macro   0x000000b8      0xacc main.o
+ .debug_macro   0x00000b84       0x22 main.o
+ .debug_macro   0x00000ba6       0x56 main.o
+ .debug_macro   0x00000bfc       0x51 main.o
+ .debug_macro   0x00000c4d      0x103 main.o
+ .debug_macro   0x00000d50       0x6a main.o
+ .debug_macro   0x00000dba      0x1df main.o
+ .debug_macro   0x00000f99       0x22 main.o
+ .debug_macro   0x00000fbb       0x58 main.o
+ .debug_macro   0x00001013       0x22 main.o
+ .debug_macro   0x00001035       0x6d convert.o
+ .debug_macro   0x000010a2       0xc5 i2c_helper.o
+ .debug_macro   0x00001167      0x189 i2c_helper.o
+ .debug_macro   0x000012f0      0x101 i2c_helper.o
+ .debug_macro   0x000013f1      0xa88 i2c_helper.o
+ .debug_macro   0x00001e79      0x2b2 i2c_helper.o
+ .debug_macro   0x0000212b      0x3d7 i2c_helper.o
+ .debug_macro   0x00002502      0x25e i2c_helper.o
+ .debug_macro   0x00002760      0x1d2 ssd1306.o
+ .debug_macro   0x00002932       0x75 ssd1306.o
+ .debug_macro   0x000029a7       0x2a ssd1306.o
+ .debug_macro   0x000029d1       0x5c ssd1306.o
+ .debug_macro   0x00002a2d       0x3c ssd1306.o
+ .debug_macro   0x00002a69       0x34 ssd1306.o
+ .debug_macro   0x00002a9d       0x57 ssd1306.o
+ .debug_macro   0x00002af4      0x38c ssd1306.o
+ .debug_macro   0x00002e80       0x16 ssd1306.o
+ .debug_macro   0x00002e96       0x4a ssd1306.o
+ .debug_macro   0x00002ee0       0x34 ssd1306.o
+ .debug_macro   0x00002f14       0x10 ssd1306.o
+ .debug_macro   0x00002f24       0x58 ssd1306.o
+ .debug_macro   0x00002f7c      0x1e5 ssd1306.o
+ .debug_macro   0x00003161       0x10 ssd1306.o
+ .debug_macro   0x00003171       0x3c ssd1306.o
+ .debug_macro   0x000031ad       0x1c ssd1306.o
+ .debug_macro   0x000031c9       0x75 startup.o
+ .debug_macro   0x0000323e     0x1342 startup.o
+ .debug_macro   0x00004580       0x67 startup.o
+ .debug_macro   0x000045e7       0xd9 uartstdio.o
+ .debug_macro   0x000046c0      0x946 uartstdio.o
+ .debug_macro   0x00005006      0x42a uartstdio.o
+ .debug_macro   0x00005430       0x10 uartstdio.o
+ .debug_macro   0x00005440       0x10 uartstdio.o
+ .debug_macro   0x00005450      0xef8 uartstdio.o
+ .debug_macro   0x00006348     0x1815 uartstdio.o
+ .debug_macro   0x00007b5d      0x17a uartstdio.o
+
+.debug_line     0x00000000     0x18f1
+ .debug_line    0x00000000      0x2f2 main.o
+ .debug_line    0x000002f2      0x3a8 convert.o
+ .debug_line    0x0000069a      0x3b6 i2c_helper.o
+ .debug_line    0x00000a50      0x5d6 ssd1306.o
+ .debug_line    0x00001026      0x2ce startup.o
+ .debug_line    0x000012f4      0x5fd uartstdio.o
+
+.debug_str      0x00000000    0x2b055
+ .debug_str     0x00000000    0x2b055 main.o
+                               0x407e (size before relaxing)
+ .debug_str     0x0002b055     0x3d41 convert.o
+ .debug_str     0x0002b055     0x9be7 i2c_helper.o
+ .debug_str     0x0002b055     0x71d4 ssd1306.o
+ .debug_str     0x0002b055     0x90ce startup.o
+ .debug_str     0x0002b055    0x20d73 uartstdio.o
+
+.debug_frame    0x00000000      0x514
+ .debug_frame   0x00000000       0x70 main.o
+ .debug_frame   0x00000070       0x60 convert.o
+ .debug_frame   0x000000d0       0x74 i2c_helper.o
+ .debug_frame   0x00000144      0x22c ssd1306.o
+ .debug_frame   0x00000370       0x7c startup.o
+ .debug_frame   0x000003ec      0x108 uartstdio.o
+ .debug_frame   0x000004f4       0x20 /usr/local/share/arm-gnu-toolchain-13.3.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
